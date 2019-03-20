@@ -19,6 +19,7 @@ def dictionary
   first_tweet.collec.split do |word|
     if dictionary.keys.include?(word)
       word = dictionary[word]
+      
  
  
  
