@@ -16,18 +16,15 @@ def dictionary
  end
  
  def word_substituter(first_tweet)
-  new_arr = []
-  words = first_tweet.split(" ")
-  words.each do |word|
-    sub = dictionary(word.downcase)
-    if sub 
-      new_arr << sub
-    else 
-      new_arr << word 
+  shortened = first_tweet.split.collect do |word|
+    if dictionary.keys.include?(word.downcase)
+      word = dictionary[word.downcase]
+    else word
     end
   end
-  return new_arr.join(" ")
- end
+  shortened.join(" ")
+end
+
  
  
  
