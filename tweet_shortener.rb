@@ -14,3 +14,19 @@ def dictionary
     "and": "&"
  }
  end
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
