@@ -19,7 +19,7 @@ def dictionary
   new_arr = []
   words = first_tweet.split(" ")
   words.each do |word|
-    sub = 
+    sub = dictionary(word.downcase)
  end
  
  
