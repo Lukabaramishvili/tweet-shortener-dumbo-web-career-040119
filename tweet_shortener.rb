@@ -18,7 +18,7 @@ def dictionary
 def word_substituter(first_tween)
   compared = first_tween.split.collect do |word|
     if dictionary.keys.include?(word.downcase)
-      word = dictionary(word.downcase)
+      word = dictionary[word.downcase]
     else
       word
     end
