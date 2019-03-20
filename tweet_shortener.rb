@@ -24,6 +24,7 @@ def dictionary
     end 
   end
   return compared.join(" ")
+end
  
  
  
