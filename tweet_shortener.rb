@@ -16,7 +16,7 @@ def dictionary
  end
  
  def word_substituter(first_tweet)
-  compared = first_tweet.collec.split do |word|
+  compared = first_tweet.split.collect do |word|
     if dictionary.keys.include?(word.downcase)
       word = dictionary[word.downcase]
     else 
