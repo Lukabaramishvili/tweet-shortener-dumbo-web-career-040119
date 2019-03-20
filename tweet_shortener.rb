@@ -19,7 +19,8 @@ def dictionary
   compared = first_tweet.split
   compared.collect do |word|
     if dictionary.keys.include?(word.downcase)
-      word = [word.downcase]
+      word = dictionary[word.downcase]
+    else
 end
  
  
