@@ -17,7 +17,9 @@ def dictionary
  
  def word_substituter(first_tweet)
   new_arr = []
-  
+  words = first_tweet.split(" ")
+  words.each do |word|
+    
  end
  
  
