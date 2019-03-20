@@ -21,7 +21,8 @@ def dictionary
   words.each do |word|
     sub = dictionary(word.downcase)
     if sub 
-      
+      new_arr << sub
+    else
  end
  
  
