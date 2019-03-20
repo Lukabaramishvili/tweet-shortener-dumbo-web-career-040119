@@ -15,8 +15,8 @@ def dictionary
  }
  end
  
- def word_substituter(first_tweet)
-  shortened = first_tweet.split.collect do |word|
+def word_substituter(tweet)
+  shortened = tweet.split.collect do |word|
     if dictionary.keys.include?(word.downcase)
       word = dictionary[word.downcase]
     else word
