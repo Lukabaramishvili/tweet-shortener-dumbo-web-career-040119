@@ -15,8 +15,8 @@ def dictionary
  }
  end
  
-def word_substituter(first_tween)
-  compared = first_tween.split.collect do |word|
+def word_substituter(first_tweet)
+  compared = first_tweet.split.collect do |word|
     if dictionary.keys.include?(word.downcase)
       word = dictionary[word.downcase]
     else
@@ -26,7 +26,7 @@ def word_substituter(first_tween)
   return compared.join(" ")
 end
 
- 
+def bulk_tweet_shortener(second_tweet)
  
  
  
