@@ -20,7 +20,8 @@ def dictionary
   words = first_tweet.split(" ")
   words.each do |word|
     sub = dictionary(word.downcase)
-    
+    if sub 
+      
  end
  
  
