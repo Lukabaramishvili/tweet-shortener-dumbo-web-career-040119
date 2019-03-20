@@ -1,7 +1,7 @@
 # Write your code here.
 
 def dictionary
-  hash = { 
+  words = { 
     "hello": "hi" ,
     "to": "2",
     "two": "2",
