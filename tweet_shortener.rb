@@ -27,7 +27,10 @@ def word_substituter(first_tweet)
 end
 
 def bulk_tweet_shortener(second_tweet)
- puts second_tweet.collect do |words|
+  second_tweet.collect do |words|
+    puts word_substituter(first_tweet)
+  end
+end
  
  
  
