@@ -16,7 +16,7 @@ def dictionary
  end
  
  def word_substituter(first_tweet)
-  compared = first_tweet.split(" ")
+  compared = first_tweet.collec.split(" ")
   compared.each do |word|
     if dictionary.key.include?(word)
  
