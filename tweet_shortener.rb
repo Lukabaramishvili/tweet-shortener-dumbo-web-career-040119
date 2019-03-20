@@ -22,7 +22,11 @@ def dictionary
     sub = dictionary(word.downcase)
     if sub 
       new_arr << sub
-    else
+    else 
+      new_arr << word 
+    end
+  end
+  return new_arr.join(" ")
  end
  
  
