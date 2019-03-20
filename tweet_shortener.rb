@@ -23,7 +23,7 @@ def dictionary
       word
     end 
   end
-  return 
+  return compared.join(" ")
  
  
  
