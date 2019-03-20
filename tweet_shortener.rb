@@ -21,6 +21,10 @@ def dictionary
     if dictionary.keys.include?(word.downcase)
       word = dictionary[word.downcase]
     else
+      word
+    end
+  end
+  return compared.join(" ")
 end
  
  
